@@ -1,6 +1,6 @@
 # Rusty Oculus Logger
 
-RustOculusLogger is a Rust Crate for logging error's according to oculus standards. See 
+RustOculusLogger is a Rust Crate for logging error's according to oculus standards. [See Oculus Docs](https://pages.github.ibm.com/nettools/platform-documentation/Platform-Internal-Logging-Convention.html)
 
 ## Installation
 
