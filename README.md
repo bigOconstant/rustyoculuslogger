@@ -12,7 +12,8 @@ rustoculuslogger = { git = "ssh://git@github.ibm.com/Caleb-Andrew-McCarthy/rusto
 
 ## Usage
 
-```extern crate rustoculuslogger;
+```
+extern crate rustoculuslogger;
 
 
 rustoculuslogger::LogObject::new()
