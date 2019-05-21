@@ -24,11 +24,11 @@ rustoculuslogger::LogObject::new()
 ```
 the lvl can be one of 4 enums passed in as a string
 
-1.Error
-2.Warn
-3.Warning
-4.Info
-5.Debug
+1. Error
+2. Warn
+3. Warning
+4. Info
+5. Debug
 
 You can also print a formatted json string with 
 ```
