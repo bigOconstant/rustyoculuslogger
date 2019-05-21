@@ -20,9 +20,15 @@ rustoculuslogger::LogObject::new()
                             .msg("Error message".to_string())
                             .op("Location of error message".to_string())
                             .lvl("error".to_string())
-                            .optionaldata("Optional data".to_string())
+                            .optionaldata("Optional data appends to msg".to_string())
                             .print();
 ```
+
+will print out the following (with the date being more current)
+```
+{"@timestamp":"2019-05-21T18:56:02Z","lvl":"error","op":"Location of error message","msg":"Error message:Optional data appends to msg"}
+```
+
 the lvl can be one of 4 enums passed in as a string
 
 1. Error
@@ -34,6 +40,16 @@ the lvl can be one of 4 enums passed in as a string
 You can also print a formatted json string with 
 ```
 .print_pretty()
+```
+Custom string types are supported with the optionaltype function example
+
+```
+rustoculuslogger::LogObject::new()
+                        .msg("Error message".to_string())
+                        .op("Location of error message".to_string())
+                        .lvl("error".to_string())
+                        .optional_type("optionalType".to_string(),"Optional type value".to_string())
+                        .optionaldata("Optional data".to_string()).print()
 ```
 
 
