@@ -29,13 +29,13 @@ pub fn lvl_to_string(input:&Level)-> String{
                 "error".to_string()
             },
             Level::Warn => {
-                "error".to_string()
+                "warn".to_string()
             },
             Level::Info => {
-                "error".to_string()
+                "Info".to_string()
             },
             Level::Debug => {
-                "error".to_string()
+                "Debug".to_string()
             }
         }
     }

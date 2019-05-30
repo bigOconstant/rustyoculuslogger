@@ -52,6 +52,3 @@ rustoculuslogger::LogObject::new()
                         .optionaldata("Optional data".to_string()).print()
 ```
 
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
